@@ -1,92 +1,67 @@
 {
   "site": {
-    "logo": "https://vbjbybczjtauhyydlcya.supabase.co/storage/v1/object/public/logos//fav%20img.png",
-    "title": "Om Extrusion",
-    "description": "Professional Manufacturing services by Om Extrusion"
+    "logo": "/assets/logo.png",
+    "title": "Atlas Metal Corporation - Professional CNC Machining Services",
+    "description": "Professional CNC Machining services by Atlas Metal Corporation"
   },
-  "theme": {
-    "id": "creative",
-    "hero": {
-      "layout": "split",
-      "textAlignment": "left",
-      "backgroundStyle": "gradient"
-    },
-    "name": "Creative",
-    "colors": {
-      "text": "#1f2937",
-      "accent": "#06b6d4",
-      "primary": "#8b5cf6",
-      "secondary": "#7c3aed",
-      "background": "#f9fafb"
-    },
-    "effects": {
-      "shadows": true,
-      "gradients": true,
-      "animations": true
-    },
-    "spacing": {
-      "content": "wide",
-      "section": "spacious"
-    },
-    "navigation": {
-      "style": "solid",
-      "position": "fixed",
-      "background": "#1f2937"
-    },
-    "typography": {
-      "scale": "large",
-      "bodyFont": "Inter",
-      "headingFont": "Inter"
-    }
-  },
-  "navigation": {
-    "items": [
+  "footer": {
+    "enabled": true,
+    "copyright": "© 2024 Atlas Metal Corporation. All rights reserved.",
+    "quickLinks": [
       {
-        "link": "#hero",
-        "text": "Home"
-      },
-      {
-        "link": "#services",
+        "url": "#services",
         "text": "Services"
       },
       {
-        "link": "#products",
+        "url": "#products",
         "text": "Products"
       },
       {
-        "link": "#contact",
+        "url": "#contact",
         "text": "Contact"
       },
       {
-        "link": "#request-quote",
+        "url": "#request-quote",
         "text": "Request Quote"
+      }
+    ],
+    "socialLinks": [
+      {
+        "url": "https://linkedin.com/company/atlasmetalcorporation",
+        "icon": "linkedin",
+        "platform": "LinkedIn"
+      },
+      {
+        "url": "https://facebook.com/atlasmetalcorporation",
+        "icon": "facebook",
+        "platform": "Facebook"
       }
     ]
   },
   "sections": {
     "hero": {
       "enabled": true,
-      "headline": "Welcome to Om Extrusion  Manufacturer of Aluminum Profiles",
+      "headline": "Welcome to Atlas Metal Corporation - Your Premier CNC Machining Partner",
       "primaryCTA": {
-        "link": "#request-quote",
+        "link": "#quote",
         "text": "Get Quote"
       },
-      "subheadline": "Delivering Precision and Innovation in Aluminum Extrusion",
+      "subheadline": "Delivering precision-engineered solutions for aerospace and industrial applications.",
       "secondaryCTA": {
         "link": "#services",
         "text": "Our Services"
       },
-      "backgroundImage": "https://c8.alamy.com/comp/FGNBH1/aluminum-extrusion-manufacturing-line-FGNBH1.jpg"
+      "backgroundImage": "https://images.unsplash.com/photo-1593642632851-0b9c24b8d8c2"
     },
     "about": {
       "stats": [
         {
           "label": "Years Experience",
-          "number": "90+"
+          "number": "15+"
         },
         {
           "label": "Projects Completed",
-          "number": "600+"
+          "number": "XXX+"
         },
         {
           "label": "Success Rate",
@@ -97,136 +72,9 @@
           "number": "24/7"
         }
       ],
-      "title": "About Om Extrusion",
+      "title": "About Atlas Metal Corporation",
       "enabled": true,
-      "description": "Om Extrusion is a distinguished manufacturer specializing in high-quality aluminum extrusion profiles. With a focus on precision and innovation, we cater to diverse industries such as construction, electrical, automotive, and industrial applications. Our commitment to excellence, quality assurance, and timely delivery positions us as a trusted partner in the global aluminum extrusion market."
-    },
-    "features": {
-      "items": [
-        {
-          "icon": "check",
-          "title": "Quality Assurance",
-          "description": "We adhere to rigorous quality standards ensuring that every product meets precise specifications and customer expectations."
-        },
-        {
-          "icon": "clock",
-          "title": "Timely Delivery",
-          "description": "Our efficient production processes and logistics guarantee that your orders are delivered on time, every time."
-        },
-        {
-          "icon": "shield",
-          "title": "Professional Standards",
-          "description": "We operate with high professional standards, ensuring that our manufacturing practices align with industry best practices."
-        },
-        {
-          "icon": "users",
-          "title": "Expert Team",
-          "description": "Our skilled workforce is dedicated to delivering innovative solutions and exceptional customer service."
-        }
-      ],
-      "title": "Why Choose Om Extrusion",
-      "enabled": true
-    },
-    "services": {
-      "items": [
-        {
-          "image": "https://c8.alamy.com/comp/FGNBH1/aluminum-extrusion-manufacturing-line-FGNBH1.jpg",
-          "title": "Aluminum Profile Extrusion",
-          "features": [
-            "Wide range of profile shapes (solid, hollow, complex)",
-            "High dimensional accuracy",
-            "Custom dies for OEM requirements",
-            "Alloy options (6061, 6063, etc.)"
-          ],
-          "description": "At Om Extrusion, we specialize in the manufacturing of both custom and standard aluminum profiles utilizing advanced extrusion processes tailored for various industrial and commercial applications."
-        },
-        {
-          "image": "https://source.unsplash.com/featured/?finishing,coating",
-          "title": "Surface Finishing & Coating",
-          "features": [
-            "Durable and aesthetic finishes",
-            "Wide color options for powder coating",
-            "Matt, glossy, or brushed textures"
-          ],
-          "description": "We offer comprehensive post-extrusion finishing services, including anodizing, powder coating, polishing, and brushing to enhance both the aesthetic appeal and corrosion resistance of our aluminum profiles."
-        }
-      ],
-      "title": "Our Services",
-      "enabled": true
-    },
-    "products": {
-      "title": "Our Products",
-      "enabled": true,
-      "subtitle": "Quality products for your needs",
-      "categories": [
-        {
-          "name": "Architectural Profiles",
-          "description": "Aluminum sections designed for use in windows, doors, partitions, curtain walls, glazing, and other architectural systems, emphasizing both aesthetic appeal and structural integrity.",
-          "productCount": 3
-        },
-        {
-          "name": "Electrical & Electronics Profiles",
-          "description": "Precision extrusions specifically designed for electrical enclosures, busbars, heat sinks, and electronic chassis, ensuring optimal thermal efficiency and electrical conductivity.",
-          "productCount": 6
-        }
-      ]
-    },
-    "whyChooseUs": {
-      "title": "Why Choose Om Extrusion",
-      "points": [
-        {
-          "image": "https://source.unsplash.com/featured/?expertise,manufacturing",
-          "title": "Industry Expertise",
-          "description": "Specific expertise in Manufacturing"
-        },
-        {
-          "image": "https://source.unsplash.com/featured/?success,results",
-          "title": "Proven Results",
-          "description": "Track record of success and customer satisfaction"
-        }
-      ],
-      "enabled": true,
-      "subtitle": "The advantages of working with us"
-    },
-    "gallery": {
-      "title": "Our Work Gallery",
-      "images": [
-        {
-          "alt": "Process",
-          "url": "https://tsvtgoljjzctgdbvvojm.supabase.co/storage/v1/object/public/gallery-images/32d2e0aa-6e65-47a3-9f3c-172026678ef5/8e4e1bdb-6b54-4aa7-a9f1-7de5ad8ab887/1748184583349.jpeg",
-          "caption": "Our process"
-        }
-      ],
-      "enabled": true
-    },
-    "certifications": {
-      "items": [
-        {
-          "name": "ISO 9001:2015",
-          "image": "https://source.unsplash.com/featured/?ISO9001",
-          "description": "Achieved in 2019, this certification underscores our commitment to quality management and has been recognized with multiple awards."
-        },
-        {
-          "name": "Six Sigma",
-          "image": "https://source.unsplash.com/featured/?SixSigma",
-          "description": "We have successfully implemented Six Sigma manufacturing techniques across our plant to enhance efficiency and reduce defects."
-        }
-      ],
-      "title": "Certifications & Standards",
-      "enabled": true
-    },
-    "testimonials": {
-      "items": [
-        {
-          "text": "Om Extrusion has consistently provided us with high-quality products and exceptional service.",
-          "author": "John Doe",
-          "avatar": "https://source.unsplash.com/featured/?avatar",
-          "company": "XYZ Industries",
-          "position": "Director of Operations"
-        }
-      ],
-      "title": "What Our Clients Say",
-      "enabled": true
+      "description": "Atlas Metal Corporation has been a leader in CNC machining for over 15 years, specializing in the manufacture of high-quality precision parts for aerospace, pneumatic, and a variety of other applications. Our commitment to maintaining strict tolerances and a zero-waste policy is evident across our five global plants."
     },
     "quote": {
       "title": "Request a Quote",
@@ -260,8 +108,8 @@
           "type": "select",
           "label": "Service Required",
           "options": [
-            "Aluminum Profile Extrusion",
-            "Surface Finishing & Coating",
+            "CNC Machining",
+            "Custom Dye Making",
             "Other"
           ],
           "required": true
@@ -278,279 +126,159 @@
       "submitUrl": "/api/send-enquiry"
     },
     "contact": {
-      "email": "ramkatarmal5@gmail.com",
+      "email": "me@ferralabs.in",
       "hours": {
         "weekend": "Saturday: 8:00 AM - 2:00 PM",
         "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM"
       },
-      "phone": "+91 9016578784",
+      "phone": "07990907619",
       "title": "Get In Touch",
       "address": {
-        "zip": "360001",
-        "city": "Rajkot",
-        "state": "Gujarat",
-        "street": "Rajkot, Gujarat",
-        "country": "India"
+        "zip": "12345",
+        "city": "City",
+        "state": "State",
+        "street": "Jamnagar, Gujarat",
+        "country": "Country"
       },
       "enabled": true,
       "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.2623!2d-118.2437!3d34.0522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDAzJzA4LjAiTiAxMTjCsDE0JzM3LjAiVw!5e0!3m2!1sen!2sus!4v1234567890",
-      "whatsapp": "+91 9016578784"
+      "whatsapp": "07990907619"
+    },
+    "gallery": {
+      "title": "Our Work Gallery",
+      "images": [
+        {
+          "alt": "Precision CNC Machining",
+          "url": "https://images.unsplash.com/photo-1581091870629-7e8f35f8e2d5",
+          "caption": "Professional work showcase"
+        },
+        {
+          "alt": "Quality Deliverables",
+          "url": "https://images.unsplash.com/photo-1581091870629-7e8f35f8e2d5",
+          "caption": "Quality deliverables"
+        }
+      ],
+      "enabled": true
+    },
+    "features": {
+      "items": [
+        {
+          "icon": "check",
+          "title": "Quality Assurance",
+          "description": "We utilize advanced CNC machines to ensure that every part meets the highest standards of quality and precision."
+        },
+        {
+          "icon": "clock",
+          "title": "Timely Delivery",
+          "description": "Our efficient production processes guarantee that your orders are completed and delivered on time."
+        },
+        {
+          "icon": "shield",
+          "title": "Professional Standards",
+          "description": "We adhere to stringent industry standards and practices, ensuring compliance and reliability in all our services."
+        },
+        {
+          "icon": "users",
+          "title": "Expert Team",
+          "description": "Our experienced team of professionals is dedicated to providing exceptional service and expert guidance on all projects."
+        }
+      ],
+      "title": "Why Choose Atlas Metal Corporation",
+      "enabled": true
+    },
+    "products": {
+      "title": "Our Products",
+      "enabled": true,
+      "subtitle": "Quality products for your needs",
+      "categories": [
+        {
+          "name": "Brass Turned Parts",
+          "description": "We produce high-quality brass turned parts that meet rigorous standards of precision and quality.",
+          "productCount": "undefined products"
+        }
+      ]
+    },
+    "services": {
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1552010581-7e67cc1b4a9f",
+          "title": "CNC Machining",
+          "features": [
+            "High Precision",
+            "Faster Turnover"
+          ],
+          "description": "At Atlas Metal Corporation, we provide high-quality CNC machining services using advanced CNC machines imported from Japan and Germany, ensuring exceptional precision and efficiency."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1512361621912-3c7e7f5d6f1f",
+          "title": "Custom Dye Making",
+          "features": [
+            "Custom Dyes",
+            "High precision"
+          ],
+          "description": "We specialize in manufacturing custom dies for iron casting, crafted with precision using our state-of-the-art VMC machines to meet your specific requirements."
+        }
+      ],
+      "title": "Our Services",
+      "enabled": true
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Atlas Metal Corporation",
+      "points": [
+        {
+          "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+          "title": "Industry Expertise",
+          "description": "Specific expertise in CNC Machining"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1593642632851-0b9c24b8d8c2",
+          "title": "Proven Results",
+          "description": "Track record of success and customer satisfaction"
+        }
+      ],
+      "enabled": true,
+      "subtitle": "The advantages of working with us"
+    },
+    "testimonials": {
+      "items": [
+        {
+          "text": "Atlas Metal Corporation consistently delivers high-quality products that exceed our expectations.",
+          "author": "John Doe",
+          "avatar": "https://images.unsplash.com/photo-1502712552565-7c73a6e6a5c5",
+          "company": "Tech Innovations",
+          "position": "CEO"
+        }
+      ],
+      "title": "What Our Clients Say",
+      "enabled": true
+    },
+    "certifications": {
+      "title": "Certifications & Standards",
+      "enabled": false
     }
   },
-  "footer": {
-    "enabled": true,
-    "copyright": "© 2024 Om Extrusion. All rights reserved.",
-    "quickLinks": [
+  "navigation": {
+    "items": [
       {
-        "url": "#services",
+        "link": "#hero",
+        "text": "Home"
+      },
+      {
+        "link": "#services",
         "text": "Services"
       },
       {
-        "url": "#products",
+        "link": "#products",
         "text": "Products"
       },
       {
-        "url": "#contact",
+        "link": "#contact",
         "text": "Contact"
       },
       {
-        "url": "#request-quote",
+        "link": "#request-quote",
         "text": "Request Quote"
       }
-    ],
-    "socialLinks": [
-      {
-        "url": "https://linkedin.com/company/omextrusion",
-        "icon": "linkedin",
-        "platform": "LinkedIn"
-      },
-      {
-        "url": "https://facebook.com/omextrusion",
-        "icon": "facebook",
-        "platform": "Facebook"
-      }
     ]
-  },
-  "sectionsOrder": [
-    {
-      "id": "infrastructure-1748184999589",
-      "data": {
-        "items": [
-          {
-            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=300&fit=crop",
-            "title": "Manufacturing Facility",
-            "features": [
-              "ISO Certified",
-              "Climate Controlled",
-              "24/7 Operations"
-            ],
-            "description": "50,000 sq ft of modern manufacturing space"
-          }
-        ],
-        "title": "Our Infrastructure",
-        "enabled": true,
-        "subtitle": "State-of-the-art facilities and capabilities"
-      },
-      "type": "infrastructure",
-      "title": "Our Infrastructure",
-      "enabled": true
-    },
-    {
-      "id": "csr-1748185022924",
-      "data": {
-        "title": "Corporate Social Responsibility",
-        "enabled": true,
-        "subtitle": "Our commitment to society and environment",
-        "initiatives": [
-          {
-            "icon": "🌱",
-            "title": "Environmental Sustainability",
-            "impact": "50% reduction in waste",
-            "description": "Reducing our carbon footprint through green practices"
-          }
-        ]
-      },
-      "type": "csr",
-      "title": "CSR",
-      "enabled": true
-    },
-    {
-      "id": "leadership-1748185063457",
-      "data": {
-        "title": "Our Leadership Team",
-        "enabled": true,
-        "members": [
-          {
-            "bio": "20+ years of industry experience",
-            "name": "John Doe",
-            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
-            "linkedin": "#",
-            "position": "Chief Executive Officer"
-          }
-        ],
-        "subtitle": "Meet the people driving our success"
-      },
-      "type": "leadership",
-      "title": "Leadership Team",
-      "enabled": true
-    },
-    {
-      "id": "awards-1748185082831",
-      "data": {
-        "title": "Awards & Recognition",
-        "awards": [
-          {
-            "year": "2024",
-            "title": "Industry Excellence Award",
-            "description": "Recognized for outstanding performance and innovation",
-            "organization": "Industry Association"
-          }
-        ],
-        "enabled": true,
-        "subtitle": "Celebrating our achievements and milestones"
-      },
-      "type": "awards",
-      "title": "Awards & Recognition",
-      "enabled": true
-    },
-    {
-      "id": "process-1748185128951",
-      "data": {
-        "steps": [
-          {
-            "step": 1,
-            "title": "Consultation",
-            "description": "We start by understanding your requirements"
-          },
-          {
-            "step": 2,
-            "title": "Planning",
-            "description": "Detailed planning and strategy development"
-          },
-          {
-            "step": 3,
-            "title": "Execution",
-            "description": "Flawless execution of the planned strategy"
-          }
-        ],
-        "title": "Our Process",
-        "enabled": true,
-        "subtitle": "How we deliver exceptional results"
-      },
-      "type": "process",
-      "title": "Our Process",
-      "enabled": true
-    },
-    {
-      "id": "technology-1748185145523",
-      "data": {
-        "title": "Technology Stack",
-        "enabled": true,
-        "subtitle": "Cutting-edge technologies we use",
-        "technologies": [
-          {
-            "icon": "⚙️",
-            "name": "Advanced Machinery",
-            "category": "Hardware",
-            "description": "State-of-the-art equipment for precision work"
-          }
-        ]
-      },
-      "type": "technology",
-      "title": "Technology Stack",
-      "enabled": true
-    },
-    {
-      "id": "quality-1748185159738",
-      "data": {
-        "title": "Quality Assurance",
-        "enabled": true,
-        "subtitle": "Our commitment to excellence",
-        "processes": [
-          {
-            "title": "Quality Control",
-            "description": "Rigorous testing at every stage"
-          }
-        ],
-        "certifications": [
-          {
-            "name": "ISO 9001:2015",
-            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=150&h=150&fit=crop",
-            "description": "Quality Management System"
-          }
-        ]
-      },
-      "type": "quality",
-      "title": "Quality Assurance",
-      "enabled": true
-    },
-    {
-      "id": "environment-1748185165110",
-      "data": {
-        "title": "Environmental Commitment",
-        "enabled": true,
-        "subtitle": "Building a sustainable future",
-        "commitments": [
-          {
-            "icon": "🌍",
-            "title": "Carbon Neutral Operations",
-            "progress": 75,
-            "description": "Committed to achieving carbon neutrality by 2030"
-          }
-        ]
-      },
-      "type": "environment",
-      "title": "Environmental Commitment",
-      "enabled": true
-    },
-    {
-      "id": "faq-1748185180566",
-      "data": {
-        "title": "Frequently Asked Questions",
-        "enabled": true,
-        "subtitle": "Find answers to common questions",
-        "questions": [
-          {
-            "answer": "We offer a comprehensive range of services tailored to meet your needs.",
-            "question": "What services do you offer?"
-          }
-        ]
-      },
-      "type": "faq",
-      "title": "FAQ",
-      "enabled": true
-    },
-    {
-      "id": "news-1748185190360",
-      "data": {
-        "title": "Latest News & Updates",
-        "enabled": false,
-        "articles": [],
-        "subtitle": "Stay updated with our latest developments"
-      },
-      "type": "news",
-      "title": "News & Updates",
-      "enabled": true
-    },
-    {
-      "id": "download-catalog-1748186217142",
-      "data": {
-        "title": "Download Our Catalogs",
-        "enabled": true,
-        "catalogs": [
-          {
-            "name": "Product Catalog 2024",
-            "fileUrl": "https://example.com/catalog.pdf",
-            "fileSize": "2.5 MB",
-            "fileType": "PDF",
-            "description": "Complete product catalog with specifications and pricing"
-          }
-        ],
-        "subtitle": "Get detailed information about our products and services"
-      },
-      "type": "download-catalog",
-      "title": "Download Catalog",
-      "enabled": true
-    }
-  ]
+  }
 }
